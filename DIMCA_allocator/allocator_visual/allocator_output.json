@@ -1,0 +1,93 @@
+[
+  {
+    "type": "INIT",
+    "level": 1,
+    "base": "0x10c5b2000",
+    "size": 65504
+  },
+  {
+    "type": "INIT",
+    "level": 2,
+    "base": "0x10c5c2000",
+    "size": 131040
+  },
+  {
+    "type": "INIT",
+    "level": 3,
+    "base": "0x10c5e2000",
+    "size": 262112
+  },
+  {
+    "type": "ALLOC",
+    "id": 1,
+    "size": 40,
+    "preferred_level": 1,
+    "actual_level": 1,
+    "address": "0x10c5b2020",
+    "time_cost": 1.0
+  },
+  {
+    "type": "ALLOC",
+    "id": 2,
+    "size": 70,
+    "preferred_level": 1,
+    "actual_level": 1,
+    "address": "0x10c5b2070",
+    "time_cost": 1.0
+  },
+  {
+    "type": "ALLOC",
+    "id": 3,
+    "size": 120,
+    "preferred_level": 3,
+    "actual_level": 3,
+    "address": "0x10c5e2020",
+    "time_cost": 1.0
+  },
+  {
+    "type": "ALLOC",
+    "id": 4,
+    "size": 200,
+    "preferred_level": 2,
+    "actual_level": 2,
+    "address": "0x10c5c2020",
+    "time_cost": 1.0
+  },
+  {
+    "type": "ALLOC",
+    "id": 5,
+    "size": 300,
+    "preferred_level": 1,
+    "actual_level": 1,
+    "address": "0x10c5b20e0",
+    "time_cost": 1.0
+  },
+  {
+    "type": "FREE",
+    "address": "0x10c5b2020",
+    "level": 1
+  },
+  {
+    "type": "FREE",
+    "address": "0x10c5b2070",
+    "level": 1
+  },
+  {
+    "type": "FREE",
+    "address": "0x10c5e2020",
+    "level": 3
+  },
+  {
+    "type": "FREE",
+    "address": "0x10c5c2020",
+    "level": 2
+  },
+  {
+    "type": "FREE",
+    "address": "0x10c5b20e0",
+    "level": 1
+  },
+  {
+    "type": "SHUTDOWN"
+  }
+]
