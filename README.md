@@ -1,6 +1,6 @@
 # Dynamic Integrated Memory Cross Allocation (DIMCA)
 
-DIMCA (Dynamic Integrated Memory Cross Allocation) is a custom algorithm designed to enhance memory allocation performance by optimizing how data capsules are distributed across multi-level memory pools. The goal is to minimize allocation time penalties due to mismatches between data and memory levels, simulating scenarios found in hierarchical memory systems (e.g., CPU cache levels, RAM tiers, or storage stacks).
+**DIMCA (Dynamic Integrated Memory Cross Allocation)** is a custom algorithm designed to enhance memory allocation performance by optimizing how data capsules are distributed across multi-level memory pools. The goal is to minimize allocation time penalties due to mismatches between data and memory levels, simulating scenarios found in hierarchical memory systems (e.g., CPU cache levels, RAM tiers, or storage stacks).
 
 ---
 
