@@ -117,5 +117,5 @@ Further adjustment will be made for future developments
 ---
 
 ## 👤 Author
-Developed by **Rizky Saputra**
+Developed and managed by **Rizky Saputra**
 As part of an independent Hardware and Memory Systems Research Project (2025)
